@@ -29,7 +29,9 @@ password3 = password * password2 + number7
 password4 = password + password2 + password3
 password5 = password4 * password3 * password4
 finalPassword = password5 * password5
-crackedHash = ' Cracked Hash:' + ' ' + finalPassword
+print('------------------------')
+print('Cracked Hash:')
+crackedHash = finalPassword
 
 print(crackedHash)
  
